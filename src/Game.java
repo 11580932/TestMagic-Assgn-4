@@ -39,7 +39,7 @@ public class Game {
 		for (Dice d : dice) {
 			d.roll();
 			if (d.getValue().equals(pick)) {
-				matches += 1;
+				matches += 1.01;
 			}
 		}
 
