@@ -44,6 +44,9 @@ public class Game {
 		if (matches > 0) {			
 			player.receiveWinnings(winnings);
 		}
+		else{//bug
+			player.takeBet(bet);// bug
+		}
         return winnings;		
 	}
 	
