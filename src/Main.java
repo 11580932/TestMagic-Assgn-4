@@ -28,7 +28,8 @@ public class Main {
             	String name = "Fred";
             	int balance = 100;
             	int limit = 0;
-                player = new Player(name, balance);
+		int age=18;// declared age of a player 
+                player = new Player(name, balance,age);//declared age
                 player.setLimit(limit);
                 int bet = 5;
 
