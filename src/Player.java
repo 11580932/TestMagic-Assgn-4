@@ -8,6 +8,7 @@ public class Player {
 	{
 		if (name == null || name .isEmpty()) throw new IllegalArgumentException("Name cannot be null or empty");
 		if (balance < 0) throw new IllegalArgumentException("Balance cannot be negative");
+		if(age<18) throw new illegalArgumentException("Age must be above 18. Sorry !");
 		this.name = name;
 		this.balance = balance;
 		this.limit = 0;
