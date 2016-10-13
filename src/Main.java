@@ -61,7 +61,7 @@ public class Main {
 					} else {
 						System.out.printf("%s lost, balance now %d\n\n",
 								player.getName(), player.getBalance());
-						loseCount++;
+						loseCount--;
 					}
 
 				} // while
