@@ -57,11 +57,11 @@ public class Main {
 								.printf("%s won %d, balance now %d\n\n",
 										player.getName(), winnings,
 										player.getBalance());
-						winCount++;
+						winCount--;
 					} else {
 						System.out.printf("%s lost, balance now %d\n\n",
 								player.getName(), player.getBalance());
-						loseCount--;
+						loseCount++;
 					}
 
 				} // while
